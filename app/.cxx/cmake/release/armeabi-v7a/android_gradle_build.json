@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/home/justin/NoseApp/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/justin/NoseApp/app/.cxx/cmake/release/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/justin/NoseApp/app/.cxx/cmake/release/armeabi-v7a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/root/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/justin/NoseApp/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/justin/NoseApp/app/.cxx/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/home/justin/NoseApp/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
+			"toolchain" : "11623287784116073175"
+		}
+	},
+	"toolchains" : 
+	{
+		"11623287784116073175" : 
+		{
+			"cCompilerExecutable" : "/root/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/root/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}
